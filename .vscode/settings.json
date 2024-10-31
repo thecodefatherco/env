@@ -1,0 +1,17 @@
+{
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "class:list",
+    "classNames",
+    ".*Classes.*"
+  ],
+  "yaml.schemas": {
+    "https://atmos.tools/schemas/atmos/atmos-manifest/1.0/atmos-manifest.json": [
+      "**/stacks/**/*.yaml",
+      "!**/stacks/workflows/**/*.yaml",
+      "!**/stacks/schemas/**/*.yaml"
+    ]
+  }
+}
