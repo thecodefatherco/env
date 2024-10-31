@@ -1,0 +1,111 @@
+{
+  "disableIndexing": true,
+  "disableSessionTitles": true,
+  "allowAnonymousTelemetry": false,
+  "contextProviders": [
+    {
+      "name": "code",
+      "params": {}
+    },
+    {
+      "name": "codebase",
+      "params": {
+        "nFinal": 10,
+        "nRetrieve": 50,
+        "useReranking": true
+      }
+    },
+    {
+      "name": "currentFile",
+      "params": {}
+    },
+    {
+      "name": "diff",
+      "params": {}
+    },
+    {
+      "name": "docs",
+      "params": {}
+    },
+    {
+      "name": "open",
+      "params": {}
+    },
+    {
+      "name": "terminal",
+      "params": {}
+    },
+    {
+      "name": "system",
+      "params": {}
+    },
+    {
+      "name": "outline",
+      "params": {}
+    },
+    {
+      "name": "problems",
+      "params": {}
+    },
+    {
+      "name": "highlights",
+      "params": {}
+    },
+    {
+      "name": "folder",
+      "params": {
+        "nFinal": 10,
+        "nRetrieve": 30
+        "useReranking": true,
+      }
+    },
+    {
+      "name": "dir",
+      "params": {}
+    },
+    {
+      "name": "url",
+      "params": {}
+    },
+    {
+      "name": "locals",
+      "params": {}
+    },
+    {
+      "name": "os",
+      "params": {}
+    },
+    {
+      "name": "web",
+      "params": {
+        "n": 10
+      }
+    },
+    {
+      "name": "repo-map",
+      "params": {}
+    },
+    {
+      "name": "tree",
+      "params": {}
+    },
+    {
+      "name": "search",
+      "params": {}
+    }
+  ],
+  "docs": [
+    {
+      "title": "Argilla",
+      "maxDepth": 3,
+      "rootUrl": "https://docs.argilla.io/latest/",
+      "startUrl": "https://docs.argilla.io/latest/"
+    },
+    {
+      "title": "LiteLLM",
+      "maxDepth": 3,
+      "rootUrl": "https://docs.litellm.ai",
+      "startUrl": "https://docs.litellm.ai/docs/"
+    }
+  ]
+}
